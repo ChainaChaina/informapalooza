@@ -1,0 +1,75 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: rgb(109, 158, 235);
+  font-family: "Mulish", serif;
+  font-optical-sizing: auto;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.atractions {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+  max-width: 500px;
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  overflow: visible;
+  font-size: 23px;
+  .angel {
+    position: absolute;
+    width: 10rem;
+    left: -45px;
+    top: -70px;
+    rotate: 10deg;
+    z-index: 11;
+  }
+}
+
+.title {
+  max-width: 40rem;
+}
+
+.capsule {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-left: auto;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  width: min-content;
+  padding: 1rem;
+  Img {
+    width: 17rem;
+  }
+}
+
+.capsule-title {
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  max-width: 70vw;
+}
+
+.giu {
+  margin-bottom: 20px;
+}
+
+.others {
+  font-size: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
