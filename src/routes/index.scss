@@ -1,4 +1,7 @@
 
+html, body {
+  overflow: hidden;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -8,6 +11,7 @@
   font-optical-sizing: auto;
   overflow: hidden;
   height: 100vh;
+  position: relative;
 }
 
 .atractions {
